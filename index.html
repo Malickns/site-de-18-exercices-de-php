@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercices de php</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            font-size: 30px;
+            animation: fadeIn 1s ease-out;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 90px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            animation: slideIn 1s ease-out;
+        }
+
+        ol {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 30px;
+            animation: fadeIn 1s ease-out;
+        }
+
+        a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: #ff4500;
+        }
+
+        .description {
+            text-align: justify;
+            margin-top: 20px;
+            animation: fadeIn 1s ease-out;
+        }
+
+        /* Nouvelles animations */
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes slideIn {
+            from { transform: translateY(-20px); }
+            to { transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- En-tête de la page -->
+    <header>
+        <h1>Exercices de php</h1>
+    </header>
+
+    <!-- Section de description -->
+    <section class="description">
+        <h2>À Propos du Site</h2>
+        <p>Bonjour, mon nom est Malick Ndiaye SAWADOGO. Je suis étudiant en deuxième année de Bachelor en Informatique de Gestion à l’Institut Africain de Management. J'ai créer ce site très pratique pour les étudiants qui cherchent à vérifier leurs réponses en PHP. Le site contient 18 exercices de PHP  ainsi que leur éxecution. Chaque numéro d’exercice est un lien qui mène à la page où le programme est éxécuté. vous pouvez avoir le code sur mon <a href="https://github.com/Malickns">Github </a> J’espère que ce Site sera utile pour les étudiants qui cherchent à améliorer leurs compétences en PHP. Merci de votre visite !</p>
+    </section>
+
+    <!-- Liste d'exercices -->
+    <section>
+        <h2>Liste des 18 Exercices</h2>
+        <ol>
+          <li><a href="exo1.php">Exercice 1 : Noms valides  de variables</a></li>
+          <li><a href="exo2.php">Exercice 2 : Multiple de 3 et de 5</a></li>
+          <li><a href="exo3.php">Exercice 3 : Tirages aléatoires</a></li>
+          <li><a href="exo4.php">Exercice 4 : Calculer le PPCM de 2 entiers</a></li>
+          <li><a href="exo5.php">Exercice 5 : Calcul du diamètre, de la périmètre et du surface d’un cercle</a></li>
+          <li><a href="exo6.php">Exercice 6 : Ensemble des diviseurs d’un nombre</a></li>
+          <li><a href="exo7.php">Exercice 7 : Nombre parfait</a></li>
+          <li><a href="exo8.php">Exercice 8 : Tableau multidimensionnel associatif</a></li>
+          <li><a href="exo9.php">Exercice 9 : Tableau multidimensionnel associatif</a></li>
+          <li><a href="exo10.php">Exercice 10 : Parcours de tableau avec la boucle foreach</a></li>
+          <li><a href="exo11.php">Exercice 11 : Parcours de tableaux avec la boucle While</a></li>
+          <li><a href="exo12.php">Exercice 12 : Formulaire</a></li>
+          <li><a href="exo13.php">Exercice 13 : Formulaire</a></li>
+          <li><a href="exo14.php">Exercice 14 : Site immobilière</a></li>
+          <li><a href="exo15.php">Exercice 15 : Fonction permettant d'afficher le premier caractère en majuscule et les autres en minuscules</a></li>
+          <li><a href="exo16.php">Exercice 16 : Fonction sinus</a></li>
+          <li><a href="exo17.php">Exercice 17 : Fonction de lecture de tableaux multidimensionnels</a></li>
+          <li><a href="exo18.php">Exercice 18 : Afficher un entier n; n fois</a></li>
+      </ol>
+    </section>
+
+</body>
+</html>
